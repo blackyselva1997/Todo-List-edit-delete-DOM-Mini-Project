@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.col {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+#form button {
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.box1 h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.icon iconify-icon {
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
